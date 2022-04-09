@@ -16,7 +16,10 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="top">
-        <div className="logo">Admin</div>
+        <div className="logo">
+          <img style={{ width: 50, marginTop: -5 }} src="https://i.imgur.com/b9NyUGm.png" alt="doge" />
+          Admin
+        </div>
       </div>
       <hr />
       <div className="center">
