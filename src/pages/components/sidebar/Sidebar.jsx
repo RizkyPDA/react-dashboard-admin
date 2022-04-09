@@ -17,7 +17,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="top">
         <div className="logo">
-          <img style={{ width: 50, marginTop: -5 }} src="https://i.imgur.com/b9NyUGm.png" alt="doge" />
+          <img style={{ width: 60, marginTop: -5 }} src="https://i.imgur.com/b9NyUGm.png" alt="doge" />
           Admin
         </div>
       </div>
