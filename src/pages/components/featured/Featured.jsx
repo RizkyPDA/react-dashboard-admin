@@ -7,6 +7,7 @@ import "react-circular-progressbar/dist/styles.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+const percentage = 66;
 
 function Featured() {
   return (
@@ -26,7 +27,16 @@ function Featured() {
                   text={`${roundedValue}%`}
                   /* This is important to include, because if you're fully managing the
         animation yourself, you'll want to disable the CSS animation. */
-                  styles={buildStyles({ pathTransition: "none" })}
+                  styles={buildStyles({
+                    pathTransition: "none",
+                    strokeLinecap: "butt",
+                    textSize: "16px",
+                    pathColor: `#E7F9A9, ${percentage / 100})`,
+                    textColor: "#3D0814",
+                    trailColor: "#BEEE62",
+                    backgroundColor: "#E7F9A9",
+                    background: true,
+                  })}
                 />
               );
             }}
