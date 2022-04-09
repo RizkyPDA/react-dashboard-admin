@@ -31,12 +31,14 @@ function Featured() {
                     pathTransition: "none",
                     strokeLinecap: "butt",
                     textSize: "16px",
-                    pathColor: `#E7F9A9, ${percentage / 100})`,
+                    pathColor: `#99C24D, ${percentage / 100})`,
                     textColor: "#3D0814",
-                    trailColor: "#BEEE62",
-                    backgroundColor: "#E7F9A9",
-                    background: true,
+                    trailColor: "gold",
+                    backgroundColor: "#F6FEDB",
                   })}
+                  background
+                  backgroundPadding={7}
+                  strokeWidth={5}
                 />
               );
             }}
